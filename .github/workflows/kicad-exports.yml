@@ -1,4 +1,4 @@
-name: plots
+name: kicad-exports
 
 on: push
 #   push:
