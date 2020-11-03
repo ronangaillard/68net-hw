@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RJ45_Bel_SI-60062-F-68net
+D 1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, AutoMDIX
+K RJ45 Magjack
+F https://belfuse.com/resources/drawings/magneticsolutions/dr-mag-si-60062-f.pdf
+$ENDCMP
+#
+$CMP USB_B_Micro
+D USB Micro Type B connector
+K connector USB micro
+F ~
+$ENDCMP
+#
+$CMP USB_B_Mini
+D USB Mini Type B connector
+K connector USB mini
+F ~
+$ENDCMP
+#
+#End Doc Library
