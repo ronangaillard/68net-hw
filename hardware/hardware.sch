@@ -2006,8 +2006,6 @@ Text Label 6200 6750 0    50   ~ 0
 RDB1
 Text Label 6200 6850 0    50   ~ 0
 RDB0
-Text Label 4200 5700 2    50   ~ 0
-~DOE~
 $Comp
 L power:+3V3 #PWR040
 U 1 1 625C6BE3
@@ -3642,9 +3640,11 @@ Wire Wire Line
 Text Label 4200 5300 2    50   ~ 0
 UART_TX
 Text Label 3750 10950 1    50   ~ 0
-GPIO_5
+UART_TX
 Text Label 3650 10950 1    50   ~ 0
-GPIO_4
-Wire Wire Line
-	3700 5700 4200 5700
+UART_RX
+NoConn ~ 2300 6000
+NoConn ~ 3700 5600
+NoConn ~ 3700 5700
+NoConn ~ 2300 4500
 $EndSCHEMATC
