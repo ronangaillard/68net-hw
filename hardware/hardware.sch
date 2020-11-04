@@ -4,12 +4,12 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "net68"
-Date ""
-Rev ""
+Title "68net"
+Date "2020-11-04"
+Rev "rev A"
 Comp "Ronan Gaillard"
-Comment1 ""
-Comment2 ""
+Comment1 "A SCSI to Ethernet board"
+Comment2 "Based on scuznet design"
 Comment3 ""
 Comment4 ""
 $EndDescr
