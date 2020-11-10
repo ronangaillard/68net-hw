@@ -2,6 +2,8 @@
 
 A SCSI to ethernet board
 
+[My blog post](https://ronangaillard.github.io/posts/68net-a-modern-scsi2ethernet-board-part1/) for more background info 
+
 ## Contributing
 
 To make sure Kicad and git work fluently run the following before commiting :
