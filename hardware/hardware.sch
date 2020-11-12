@@ -1582,60 +1582,39 @@ Wire Wire Line
 Text Label 1800 3000 0    50   ~ 0
 NRST
 Wire Wire Line
-	1550 900  1750 900 
+	1550 1350 1750 1350
 Wire Wire Line
-	1750 900  1750 1150
+	1750 1350 1750 1600
 Wire Wire Line
-	1500 1150 1750 1150
-Connection ~ 1750 1150
+	1500 1600 1750 1600
+Connection ~ 1750 1600
 Wire Wire Line
-	1750 1150 1750 1300
+	1750 1600 1750 1750
 Wire Wire Line
-	1200 1150 1000 1150
+	1200 1600 1000 1600
 Wire Wire Line
-	1000 1150 1000 900 
-Connection ~ 1000 900 
+	1000 1600 1000 1350
+Connection ~ 1000 1350
 Wire Wire Line
-	1000 900  1150 900 
+	1000 1350 1150 1350
 $Comp
 L power:GND #PWR?
 U 1 1 6108C520
-P 1750 1300
-F 0 "#PWR?" H 1750 1050 50  0001 C CNN
-F 1 "GND" H 1755 1127 50  0000 C CNN
-F 2 "" H 1750 1300 50  0001 C CNN
-F 3 "" H 1750 1300 50  0001 C CNN
-	1    1750 1300
+P 1750 1750
+F 0 "#PWR?" H 1750 1500 50  0001 C CNN
+F 1 "GND" H 1755 1577 50  0000 C CNN
+F 2 "" H 1750 1750 50  0001 C CNN
+F 3 "" H 1750 1750 50  0001 C CNN
+	1    1750 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	650  900  1000 900 
-Text Label 650  900  0    50   ~ 0
+	650  1350 1000 1350
+Text Label 650  1350 0    50   ~ 0
 NRST
 Wire Wire Line
-	650  1700 1150 1700
-Wire Wire Line
-	1550 1700 1750 1700
-Wire Wire Line
-	1750 1700 1750 1800
-Wire Wire Line
-	1750 2100 1750 2200
-$Comp
-L power:GND #PWR?
-U 1 1 611B4FDC
-P 1750 2200
-F 0 "#PWR?" H 1750 1950 50  0001 C CNN
-F 1 "GND" H 1755 2027 50  0000 C CNN
-F 2 "" H 1750 2200 50  0001 C CNN
-F 3 "" H 1750 2200 50  0001 C CNN
-	1    1750 2200
-	1    0    0    -1  
-$EndComp
-Text Label 650  1700 0    50   ~ 0
-BOOT0
-Wire Wire Line
-	2300 3200 2050 3200
-Text Label 2050 3200 0    50   ~ 0
+	1550 2150 1750 2150
+Text Label 650  2150 0    50   ~ 0
 BOOT0
 Wire Wire Line
 	4200 3700 3700 3700
@@ -2169,10 +2148,10 @@ Wire Wire Line
 	2300 5900 1800 5900
 Wire Wire Line
 	5650 3400 5900 3400
-NoConn ~ 1150 700 
-NoConn ~ 1550 700 
-NoConn ~ 1150 1900
-NoConn ~ 1550 1900
+NoConn ~ 1150 1150
+NoConn ~ 1550 1150
+NoConn ~ 1150 2350
+NoConn ~ 1550 2350
 $Comp
 L 68net:USB_B_Micro J2
 U 1 1 63889754
@@ -2200,41 +2179,41 @@ $EndComp
 $Comp
 L dk_Tactile-Switches:PTS645SM43SMTR92_LFS S1
 U 1 1 63523958
-P 1350 800
-F 0 "S1" H 1350 1147 60  0000 C CNN
-F 1 "PTS645SM43SMTR92_LFS" H 1350 1041 60  0000 C CNN
-F 2 "digikey-footprints:Switch_Tactile_SMD_6x6mm" H 1550 1000 60  0001 L CNN
-F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 1550 1100 60  0001 L CNN
-F 4 "TL3301AF160QG" H 1550 1200 60  0001 L CNN "Digi-Key_PN"
-F 5 "" H 1550 1300 60  0001 L CNN "MPN"
-F 6 "Switches" H 1550 1400 60  0001 L CNN "Category"
-F 7 "Tactile Switches" H 1550 1500 60  0001 L CNN "Family"
-F 8 "" H 1550 1600 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "" H 1550 1700 60  0001 L CNN "DK_Detail_Page"
-F 10 "" H 1550 1800 60  0001 L CNN "Description"
-F 11 "C&K" H 1550 1900 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 1550 2000 60  0001 L CNN "Status"
-	1    1350 800 
+P 1350 1250
+F 0 "S1" H 1350 1100 60  0000 C CNN
+F 1 "SWITCH" H 1350 1500 60  0000 C CNN
+F 2 "digikey-footprints:Switch_Tactile_SMD_6x6mm" H 1550 1450 60  0001 L CNN
+F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 1550 1550 60  0001 L CNN
+F 4 "TL3301AF160QG" H 1550 1650 60  0001 L CNN "Digi-Key_PN"
+F 5 "" H 1550 1750 60  0001 L CNN "MPN"
+F 6 "Switches" H 1550 1850 60  0001 L CNN "Category"
+F 7 "Tactile Switches" H 1550 1950 60  0001 L CNN "Family"
+F 8 "" H 1550 2050 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "" H 1550 2150 60  0001 L CNN "DK_Detail_Page"
+F 10 "" H 1550 2250 60  0001 L CNN "Description"
+F 11 "C&K" H 1550 2350 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1550 2450 60  0001 L CNN "Status"
+	1    1350 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L dk_Tactile-Switches:PTS645SM43SMTR92_LFS S2
 U 1 1 635217E4
-P 1350 1800
-F 0 "S2" H 1350 2147 60  0000 C CNN
-F 1 "PTS645SM43SMTR92_LFS" H 1350 2041 60  0000 C CNN
-F 2 "digikey-footprints:Switch_Tactile_SMD_6x6mm" H 1550 2000 60  0001 L CNN
-F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 1550 2100 60  0001 L CNN
-F 4 "TL3301AF160QG" H 1550 2200 60  0001 L CNN "Digi-Key_PN"
-F 5 "" H 1550 2300 60  0001 L CNN "MPN"
-F 6 "Switches" H 1550 2400 60  0001 L CNN "Category"
-F 7 "Tactile Switches" H 1550 2500 60  0001 L CNN "Family"
-F 8 "" H 1550 2600 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "" H 1550 2700 60  0001 L CNN "DK_Detail_Page"
-F 10 "" H 1550 2800 60  0001 L CNN "Description"
-F 11 "C&K" H 1550 2900 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 1550 3000 60  0001 L CNN "Status"
-	1    1350 1800
+P 1350 2250
+F 0 "S2" H 1350 2597 60  0000 C CNN
+F 1 "PTS645SM43SMTR92_LFS" H 1350 2491 60  0000 C CNN
+F 2 "digikey-footprints:Switch_Tactile_SMD_6x6mm" H 1550 2450 60  0001 L CNN
+F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 1550 2550 60  0001 L CNN
+F 4 "TL3301AF160QG" H 1550 2650 60  0001 L CNN "Digi-Key_PN"
+F 5 "" H 1550 2750 60  0001 L CNN "MPN"
+F 6 "Switches" H 1550 2850 60  0001 L CNN "Category"
+F 7 "Tactile Switches" H 1550 2950 60  0001 L CNN "Family"
+F 8 "" H 1550 3050 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "" H 1550 3150 60  0001 L CNN "DK_Detail_Page"
+F 10 "" H 1550 3250 60  0001 L CNN "Description"
+F 11 "C&K" H 1550 3350 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1550 3450 60  0001 L CNN "Status"
+	1    1350 2250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2418,27 +2397,15 @@ F 4 "1276-1017-1-ND" H 2850 1200 50  0001 C CNN "Digi-Key_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R7
-U 1 1 611792DD
-P 1750 1950
-F 0 "R7" H 1820 1996 50  0000 L CNN
-F 1 "10k" H 1820 1905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1680 1950 50  0001 C CNN
-F 3 "~" H 1750 1950 50  0001 C CNN
-F 4 "RMCF0603JT10K0CT-ND" H 1750 1950 50  0001 C CNN "Digi-Key_PN"
-	1    1750 1950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C5
 U 1 1 61019897
-P 1350 1150
-F 0 "C5" V 1250 1000 50  0000 C CNN
-F 1 "100nF" V 1500 1150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1388 1000 50  0001 C CNN
-F 3 "~" H 1350 1150 50  0001 C CNN
-F 4 "1276-1017-1-ND" H 1350 1150 50  0001 C CNN "Digi-Key_PN"
-	1    1350 1150
+P 1350 1600
+F 0 "C5" V 1250 1450 50  0000 C CNN
+F 1 "100nF" V 1500 1600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1388 1450 50  0001 C CNN
+F 3 "~" H 1350 1600 50  0001 C CNN
+F 4 "1276-1017-1-ND" H 1350 1600 50  0001 C CNN "Digi-Key_PN"
+	1    1350 1600
 	0    1    1    0   
 $EndComp
 $Comp
@@ -4089,4 +4056,78 @@ F 3 "" H 2200 10800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 1000 10450
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5FBC85D1
+P 1750 2150
+F 0 "#PWR?" H 1750 2000 50  0001 C CNN
+F 1 "+3V3" V 1765 2278 50  0000 L CNN
+F 2 "" H 1750 2150 50  0001 C CNN
+F 3 "" H 1750 2150 50  0001 C CNN
+	1    1750 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	650  2150 1150 2150
+Wire Wire Line
+	1000 850  1000 950 
+Wire Wire Line
+	1000 1250 1000 1350
+$Comp
+L Device:R R36
+U 1 1 5FC40257
+P 1000 1100
+F 0 "R36" H 800 1150 50  0000 L CNN
+F 1 "10k" H 800 1050 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 930 1100 50  0001 C CNN
+F 3 "~" H 1000 1100 50  0001 C CNN
+F 4 "RMCF0603JT10K0CT-ND" H 1000 1100 50  0001 C CNN "Digi-Key_PN"
+	1    1000 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5FD23831
+P 1000 850
+F 0 "#PWR?" H 1000 700 50  0001 C CNN
+F 1 "+3V3" H 1015 1023 50  0000 C CNN
+F 2 "" H 1000 850 50  0001 C CNN
+F 3 "" H 1000 850 50  0001 C CNN
+	1    1000 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 3200 2150 3200
+Connection ~ 2150 3200
+Wire Wire Line
+	2150 3200 2150 3300
+$Comp
+L power:GND #PWR?
+U 1 1 611B4FDC
+P 2150 3700
+F 0 "#PWR?" H 2150 3450 50  0001 C CNN
+F 1 "GND" H 2155 3527 50  0000 C CNN
+F 2 "" H 2150 3700 50  0001 C CNN
+F 3 "" H 2150 3700 50  0001 C CNN
+	1    2150 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 3600 2150 3700
+$Comp
+L Device:R R7
+U 1 1 611792DD
+P 2150 3450
+F 0 "R7" H 2000 3500 50  0000 L CNN
+F 1 "10k" H 1950 3400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2080 3450 50  0001 C CNN
+F 3 "~" H 2150 3450 50  0001 C CNN
+F 4 "RMCF0603JT10K0CT-ND" H 2150 3450 50  0001 C CNN "Digi-Key_PN"
+	1    2150 3450
+	1    0    0    -1  
+$EndComp
+Text Label 1800 3200 0    50   ~ 0
+BOOT0
+Wire Wire Line
+	1800 3200 2150 3200
 $EndSCHEMATC
